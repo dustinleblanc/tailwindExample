@@ -9,6 +9,7 @@ services:
     build:
       - composer install
   node:
+    type: node
     build:
       - npm install
       - npm run dev
