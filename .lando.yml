@@ -1,0 +1,14 @@
+name: tailwind-example
+recipe: laravel
+config:
+  webroot: public
+  via: nginx
+  cache: redis
+services:
+  appserver:
+    build:
+      - composer install
+  node:
+    build:
+      - npm install
+      - npm run dev
