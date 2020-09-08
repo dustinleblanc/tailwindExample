@@ -4,12 +4,18 @@ config:
   webroot: public
   via: nginx
   cache: redis
+proxy:
+  node:
+    - bs-tailwind-example.lndo.site:3000
 services:
   appserver:
     build:
       - composer install
   node:
     type: node
+    ssl: true
+    scanner: false
+    command: npm run watch
     build:
       - npm install
       - npm run dev

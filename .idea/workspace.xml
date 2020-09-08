@@ -2,23 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de80119a-02d6-425a-807a-25118c0946ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.lando.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.lando.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -134,7 +140,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -151,6 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596641941610</updated>
       <workItem from="1596641942688" duration="6802000" />
+      <workItem from="1596827789473" duration="4737000" />
     </task>
     <servers />
   </component>
@@ -170,9 +179,14 @@
       <screen x="0" y="387" width="2560" height="1053" />
     </state>
     <state x="1614" y="253" width="611" height="933" key="find.popup/2560.360.1920.1080/0.387.2560.1053@0.387.2560.1053" timestamp="1596642745257" />
-    <state x="1583" y="329" key="search.everywhere.popup" timestamp="1596641962254">
-      <screen x="0" y="387" width="2560" height="1053" />
+    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1596829442926">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
+    <state x="526" y="0" width="1508" height="3208" key="search.everywhere.popup.inPresentationMode" timestamp="1596829008458">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="526" y="0" width="1508" height="3208" key="search.everywhere.popup.inPresentationMode/2560.519.1440.877/0.0.2560.1440@0.0.2560.1440" timestamp="1596829008458" />
     <state x="1583" y="329" key="search.everywhere.popup/2560.360.1920.1080/0.387.2560.1053@0.387.2560.1053" timestamp="1596641962254" />
+    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup/2560.519.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1596829442926" />
   </component>
 </project>

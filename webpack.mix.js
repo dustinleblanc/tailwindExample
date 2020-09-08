@@ -14,10 +14,19 @@ require('laravel-mix-tailwind');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .postCss('resources/css/app.css', 'public/css')
-   .tailwind('./tailwind.config.js');
+    .postCss('resources/css/app.css', 'public/css')
+    .tailwind('./tailwind.config.js')
+    .browserSync({
+        proxy: 'http://appserver_nginx.tailwind-example.internal',
+        socket: {
+            domain:'https://bs-tailwind-example.lndo.site',
+            port: 80
+        },
+        files: ['resources/views/**/*.php', 'resources/css/*.css'],
+        stream: true,
+    });
 
 if (mix.inProduction()) {
-  mix
-   .version();
+    mix
+        .version();
 }
